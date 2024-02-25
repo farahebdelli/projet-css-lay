@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto, Arial, sans-serif";
+}
+
+header {
+    padding: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav img {
+    width: 250px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 0.9375rem;
+    color: #747474;
+    font-weight: 500;
+}
+
+header nav ul li .actif {
+    color: #00b39b;
+}
+
+header nav ul li a:hover {
+    color: #00b39b;
+}
+
+header nav ul li .dropdown {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    height: 180px;
+    width: 200px;
+    justify-content: space-between;
+    box-shadow: 12px 12px 2px 1px rgba(123, 123, 131, 0.2);
+    padding: 10px;
+}
+
+header nav ul .departement {
+    position: relative;
+}
+
+header nav ul .departement:hover .dropdown {
+    display: flex;
+}
+
+header nav ul li .dropdown li:hover {
+    background-color: #f5f0f0;
+}
+
+header nav ul li .dropdown li a {
+    padding: 10px;
+}
+
+img {
+    display: flex;
+}
+
+.farah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px 400px;
+}
+
+.farah h1 {
+    color: #00b39b;
+    font-weight: 100;
+    letter-spacing: -0.3px;
+    font-size: 40px;
+    width: 800px;
+    font-family: "Work Sans, Arial, sans-serif";
+}
+
+#para {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    width: 1000px;
+}
+
+#para p {
+    width: 40%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 300px;
+}
+
+.card:first-child {
+    background-color: #00b39b;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    color: #f5f0f0;
+}
